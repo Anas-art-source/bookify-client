@@ -1,0 +1,13 @@
+
+.cover {
+    width: 100%;
+    height: 30vh;
+    background-color: blanchedalmond;
+}
+
+.cover-image {
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    object-fit: cover;
+}

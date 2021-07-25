@@ -1,0 +1,14 @@
+.filter-wrapper {
+    width: 100%;
+    display: flex;
+    padding: 0 0.5rem;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.filter-wrapper > * {
+    flex-basis: 45%;
+}

@@ -1,0 +1,125 @@
+.user-view {
+    width: 60%;
+    margin: 1rem auto;
+    height: 100vh;
+}
+
+.loading-div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.name-plate-user-view {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.name-plate-user-view > * {
+    margin: 0;
+}
+
+.card-detail {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-addbook-wrapper {
+    width: 20%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card-detail-tab > * {
+    margin: 0.5rem 0.2rem;
+}
+
+.card-detail-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-comment-review {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.comment-review-box {
+    width: 100%;
+    margin-top: 1rem;
+    background-color: white;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.add-comment-review-box {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.add-comment-review {
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: inherit;
+    font-size: 1rem;
+    flex-basis: 90%;
+    border: none;
+    background-color: rgb(231, 231, 231);
+
+}
+
+.add-comment-review:focus {
+    outline: none;
+}
+
+.comment-review-form {
+    flex-grow: 1;
+    background-color: rgb(231, 231, 231);
+    border-radius: 23px;
+    /* overflow: hidden; */
+    display: flex;
+    padding: 0 1rem 0 0;
+    align-items: center;
+    height: auto;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+.send-icon {
+   align-self: flex-end;
+   padding: 1rem;
+}
+
+.send-icon:hover {
+    transform: scale(1.1);
+}
+
+.send-icon:active {
+    transform: scale(1);
+
+}
+
+.review-stars {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}

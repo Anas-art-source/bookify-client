@@ -1,0 +1,100 @@
+.loading-div {
+    background-color: white;
+    padding: 2rem 3rem;
+    border-radius: 5px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10000;
+    backdrop-filter: darken(0.2);
+}
+
+.signup-card {
+     width: 30%;
+     background-color: white;
+}
+
+.action-heading {
+    width: 100%;
+    margin: 1rem;
+    text-align: center;
+}
+
+.action-form-box {
+    padding: 1rem;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    
+}
+
+.error-text {
+    padding: 5rem 3rem;
+    color: white;
+}
+
+.action-input-box {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+} 
+
+
+.error-text {
+    color: red;
+    padding: 5rem;
+}
+
+.success-text {
+    color: green;
+    padding: 5rem;
+}
+
+.invalid  input {
+    border: red;
+}
+
+.invalid label {
+    color: red;
+}
+
+.action-input-box > input {
+   background-color:  inherit;
+   border: none;
+   outline: none;
+   border-bottom: 1px solid rgb(88, 88, 88);
+   padding: 1rem 0;
+   font-size: 1rem;
+   
+}
+
+.action-input-box > input:focus {
+    border-bottom: 2px solid black;
+}
+
+.btn-submit-form {
+    background-color: rgb(1, 172, 58);
+    padding: 1rem;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.btn-submit-form:hover {
+    background-color: rgb(1, 146, 50);
+}
+
+.redirect p {
+    text-align: center;
+}
+
+.redirect p a {
+    text-decoration: none;
+    color: blue;
+}

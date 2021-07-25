@@ -1,0 +1,65 @@
+.review {
+    padding: 0 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.review-box {
+    background-color: rgb(235, 235, 235);
+    padding: 0.5rem !important;
+    height: auto;
+    border-radius: 5px;
+    flex-grow: 1;
+}   
+
+.review-content {
+    line-height: 1.6 !important;
+    width: 100%;
+}
+
+.user-name {
+    font-size: 0.8rem;
+    font-weight: 100;
+    line-height: 0;
+}
+
+.rightBox {
+    flex-grow: 1;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: stretch;
+
+}
+
+.mainReviewBox {
+    
+}
+
+.review-heading {
+    line-height: 0;
+    padding: 0.5rem;
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.name-and-rating-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.name-and-rating-box > * {
+    margin: 0.5rem 0;
+    padding: 0;
+}
+
+.no-reviews {
+    width: 100%;
+    text-align: center;
+    
+}

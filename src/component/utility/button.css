@@ -1,0 +1,23 @@
+.btn-value {
+    font-family: inherit;
+    font-size: 1rem;
+    margin: 0;
+    
+}
+
+.btn-general {
+    display: flex;
+    justify-content: center;
+    gap:0.3rem;
+    align-items: center;
+    margin: 0;
+    padding: 1rem;
+    /* width: 40%;
+    border-radius: 1000px; */
+}
+
+/* .icon {
+    width: 1px;
+    fill: red;
+    height: 2000rem;
+} */

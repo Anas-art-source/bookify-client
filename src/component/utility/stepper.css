@@ -1,0 +1,38 @@
+.button-div {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: inherit;
+    
+}
+
+.all-slide-wrapper {
+    width: 300%;
+    height: 40vh;
+    box-sizing: border-box;
+    padding: 5rem;
+}
+
+.slide-window {
+    width: 100%;
+    overflow: hidden;
+}
+
+.all-slide-wrapper-1 {
+    transform: translateX(0);
+}
+
+.all-slide-wrapper-2 {
+    transform: translateX(-33.33%);
+}
+
+.all-slide-wrapper-3 {
+    transform: translateX(-66.66%);
+}

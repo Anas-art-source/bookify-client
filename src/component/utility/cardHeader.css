@@ -1,0 +1,59 @@
+.cardHeader {
+    display: flex;
+    gap: 1rem;
+    box-sizing: border-box;
+    margin: 0;
+
+
+}
+
+.nameBox {
+    margin: 0;
+    padding: 0;
+}
+
+/* .nameBox > * {
+    line-height: 0;
+} */
+.name {
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-size: 1rem;
+    line-height: 0;
+    font-weight: 200;
+}
+
+.name:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.date {
+    line-height: 0;
+    font-size: 0.8rem;
+}
+
+.priceBox {
+    margin-left: auto;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price {
+    line-height: 0;
+    margin: 0.5rem 0;
+    font-size: 1.3rem;
+}
+
+.ratingAverage {
+    margin: 0.5rem 0;
+}
+
+
+.MuiBox-root-6 {
+    margin-bottom: 0;
+}

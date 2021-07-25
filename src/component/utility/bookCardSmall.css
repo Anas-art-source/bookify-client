@@ -1,0 +1,104 @@
+.single-bookcard {
+    width: 15rem;
+    height: 20rem;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 1px 2px 12px rgba(0,0,0,0.2);
+    position: relative;
+    transition: all 0.2s;
+
+}
+
+.single-bookcard:hover {
+    transform: scale(1.02);
+    box-shadow: 1px 2px 22px rgba(0,0,0,0.2);
+    cursor: pointer;
+
+
+}
+
+/* .edit-box-backdrop {
+    width: 100%;
+    z-index: -1;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+} */
+
+/* .single-bookcard:hover .edit-icon,
+.single-bookcard:hover .edit-option {
+    background-color: red;
+    transform: scale(1.1);
+    z-index: 100000;
+} */
+
+.single-bookcard img {
+    width: 15rem;
+    height: 20rem;
+    border-radius: 5px;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+
+.detail-box {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+   
+}
+
+.detail-box > * {
+    text-align: center;
+    color: white;
+}
+
+.edit-icon {
+    padding: 0.01rem;
+    background-color: white;
+    border-radius: 2px;
+    display: inline-block;
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    z-index: 10;
+}
+
+.edit-box {
+    padding: 0.5rem ;
+    border-radius: 3px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 12%;
+    right: 1%;
+    z-index: 10;
+}
+
+.edit-box:hover {
+    position: absolute;
+    top: 12%;
+    right: 1%;
+    z-index: 10;
+}
+
+.edit-box > p {
+    color: black;
+    text-decoration: none;
+    padding: 0.3rem 2.5rem;
+    align-self: stretch;
+    text-align: center;
+    margin: 0;
+    z-index: 10;
+}
+
+.edit-box > p:hover {
+    background-color: rgb(216, 216, 216);
+    border-radius: 2px;
+    z-index: 10;
+}

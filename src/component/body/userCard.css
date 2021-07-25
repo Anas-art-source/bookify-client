@@ -1,0 +1,37 @@
+.user-card {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.user-card:hover {
+    transform: scale(1.01);
+}
+
+.introduction {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-right: auto;
+}
+
+.name {
+    font-size: 1.5rem;
+}
+
+.locationBox {
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.city-name {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.locationBox:hover {
+    color: blue;
+    cursor: pointer;
+}

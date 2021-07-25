@@ -1,0 +1,63 @@
+
+
+.addbook-form-wrapper {
+    width: 300%;
+    padding: 1rem;
+    /* background-color: wheat; */
+
+   
+}
+
+
+.addbook-form {
+    display: flex;
+    gap: 1.7rem;
+    
+
+}
+
+
+.addbook-form-box {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.addbook-form-box > input {
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1px solid grey;
+    background-color: transparent;
+}
+
+.addbook-form-box > input:focus {
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+.invalid > label{
+    color: red
+}
+
+.invalid > input{
+    border-bottom: 3px solid red;
+}
+
+
+.slide {
+    padding: 0.9rem;
+    width: 50%;
+    /* background-color: red; */
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.error {
+    color: red;
+    font-size: 0.8rem;
+}

@@ -1,0 +1,56 @@
+
+.add-comment-review-box {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.add-comment-review {
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: inherit;
+    font-size: 1rem;
+    flex-basis: 90%;
+    border: none;
+    background-color: rgb(231, 231, 231);
+
+}
+
+.add-comment-review:focus {
+    outline: none;
+}
+
+.comment-review-form {
+    flex-grow: 1;
+    background-color: rgb(231, 231, 231);
+    border-radius: 23px;
+    /* overflow: hidden; */
+    display: flex;
+    padding: 0 1rem 0 0;
+    align-items: center;
+    height: auto;
+    align-items: center;
+    gap: 1rem;
+    white-space: pre;
+
+}
+
+
+
+.send-icon {
+   align-self: flex-end;
+   padding: 1rem;
+}
+
+.send-icon:hover {
+    transform: scale(1.1);
+}
+
+.send-icon:active {
+    transform: scale(1);
+
+}

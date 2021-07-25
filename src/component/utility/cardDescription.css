@@ -1,0 +1,37 @@
+.descriptionBox{
+    padding: 0 2rem;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.bookTitle {
+    font-size: 1.3rem;
+    font-weight: 300;
+    display: block;
+    margin: 1rem 0;
+    text-decoration: none;
+    color: black;
+}
+
+
+.bookTitle:hover {
+    color: blue;
+    text-decoration: underline;
+}
+/* .descriptionTextBox {
+    height: 3rem;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.descriptionTextBox-reveal {
+    height: 5rem;
+    overflow: visible;
+
+} */
+
+.bookDescription {
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+}

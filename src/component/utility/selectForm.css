@@ -1,0 +1,21 @@
+.Mui-focus {
+    display: inline-block;
+    background-color: whitesmoke;
+    padding: 0 1rem;
+ 
+}
+
+.Mui-focus:active {
+    background-color: red;
+}
+
+/* .form-control {
+    background-color: red;
+} */
+
+
+
+.MuiSelect-selectMenu {
+    width: 80%;
+    /* background-color: red; */
+}

@@ -1,0 +1,18 @@
+.textInput {
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+    font-family: inherit;
+    font-size: 1rem;
+    box-sizing: border-box;
+    line-height: 1rem;
+    border-radius: 5px;
+    border:none;
+    resize: none;
+    height: 48px;
+ 
+}
+
+.textInput::-webkit-scrollbar {
+    width: 0;
+}
